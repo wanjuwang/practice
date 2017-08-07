@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+//ERROR: 题目要求的是，找到a中的奇数值，将这些值本身翻倍。指的是修改a内的值，不是翻倍后push到另一个vector。
 int main()
 {
 	int word;
