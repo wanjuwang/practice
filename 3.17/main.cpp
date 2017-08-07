@@ -10,7 +10,7 @@ int main()
 	while (cin >> word) {
 		a.push_back(word);
 	}
-	for (auto c : a) {
+	for (auto &c : a) {
 		for (auto &d : c)
 			d = toupper(d);
 		cout << c << endl;
