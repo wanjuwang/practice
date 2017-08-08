@@ -7,7 +7,7 @@ int main()
 {
 	char letter;
 	unsigned aCnt = 0, eCnt = 0, iCnt = 0, oCnt = 0, uCnt = 0, spaceCnt=0, tabsCnt=0, enterCnt=0;
-	while (cin >> letter)
+	while ((letter=getchar())!=EOF)
 	{
 		switch (letter) {
 		case 'a':
@@ -50,9 +50,9 @@ int main()
 	cout << "the number of vowel I and i is " << iCnt << '.' << endl;
 	cout << "the number of vowel O and o is " << oCnt << '.' << endl;
 	cout << "the number of vowel U and u is " << uCnt << '.' << endl;
-	cout << "the number of vowel 'space' is " << spaceCnt << '.' << endl;
-	cout << "the number of vowel 'tabs' is " << tabsCnt << '.' << endl;
-	cout << "the number of vowel 'line breaks' is " << enterCnt << '.' << endl;
+	cout << "the number of  'space' is " << spaceCnt << '.' << endl;
+	cout << "the number of  'tabs' is " << tabsCnt << '.' << endl;
+	cout << "the number of  'line breaks' is " << enterCnt << '.' << endl;
 	system("pause");
 	return 0;
 }
