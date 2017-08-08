@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//TODO: 不要使用goto实现该题。
+//NOTE: 不要在编程中使用goto。goto能表达的逻辑都可以通过if和for, while等实现。
 int main() {
 	int a1, a2;
 	cin >> a1 >> a2;
